@@ -5,7 +5,6 @@ class Solution:
     len1, len2 = len(str1), len(str2)
     for i in range(min(len1, len2), 0, -1):
       if len1%i==0 and len2%i==0:
-        sol_found = True
         x = str1[0:i]
         mult1 = len1 // i
         mult2 = len2 // i

@@ -1,5 +1,7 @@
 # https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/
 
+from typing import Optional
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
