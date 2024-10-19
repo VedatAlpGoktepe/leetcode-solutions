@@ -23,9 +23,3 @@ class CountIntervals:
 
   def count(self) -> int:
     return self.int_range
-
-
-# Your CountIntervals object will be instantiated and called as such:
-# obj = CountIntervals()
-# obj.add(left,right)
-# param_2 = obj.count()
